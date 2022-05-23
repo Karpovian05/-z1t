@@ -10,5 +10,5 @@ if [ "$Sum" = "$Original" ]; then
     echo "Do not turn off the router..."
     mtd -r write /tmp/a.bin > /dev/null 2>&1
 else
-   echo " The firmware is corrupted. Process cancelled."
+   echo "The firmware is corrupted. Process cancelled."
 fi
