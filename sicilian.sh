@@ -8,7 +8,7 @@ if [ "$Sum" = "$Original" ]
 then
     echo "Firmware verified..."
     echo "Updating...This will take 2-3 minutes..."
-    echo "Do not turn off the router..."
+    echo "Do not turn off the device..."
     echo "Wait for the modem to reboot..."
     mtd -r write /tmp/a.bin /dev/mtd3 > /dev/null 2&>1
 else
